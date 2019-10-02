@@ -42,16 +42,16 @@ function modus() {
 	var val3 =document.formnya.nilai3.value;
     let data = new Array(val1,val2,val3);
     let hitung = 0, maks = 0, modus = 0;
-    for (let i = 0; i < data.length; i++) {
+    for (let a = 0; a < data.length; a++) {
         hitung = 0;
-        for (let j = 0; j < data.length; j++) {
-            if(data[i] == data[j]) {
+        for (let b = 0; b < data.length; b++) {
+            if(data[a] == data[b]) {
                 hitung++;
             }
         }
         if(hitung > maks) {
             maks = hitung;
-            modus = data[i];
+            modus = data[a];
         }
     }
     if(maks > 1) {
