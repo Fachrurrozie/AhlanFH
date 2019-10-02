@@ -33,12 +33,15 @@ function bersihkan() {
 	var val1 = document.formnya.nilai1.value = "";
 	var val2 =document.formnya.nilai2.value = "";
 	var val3 =document.formnya.nilai3.value = "";
-	var hasil = document.getElementById("hasilHitung");
+	var hasil= document.getElementById("result");
     hasil.innerHTML = "";
 }
-function modus(a, b, c) {
-    let data = new Array(a,b,c);
-    let hitung = 0, max_hitung = 0, modus = 0;
+function modus() {
+	var val1 = document.formnya.nilai1.value;
+	var val2 =document.formnya.nilai2.value;
+	var val3 =document.formnya.nilai3.value;
+    let data = new Array(val1,val2,val3);
+    let hitung = 0, maks = 0, modus = 0;
     for (let i = 0; i < data.length; i++) {
         hitung = 0;
         for (let j = 0; j < data.length; j++) {
@@ -46,16 +49,16 @@ function modus(a, b, c) {
                 hitung++;
             }
         }
-        if(hitung > max_hitung) {
-            max_hitung = hitung;
+        if(hitung > maks) {
+            maks = hitung;
             modus = data[i];
         }
     }
-    if(max_hitung > 1) {
+    if(maks > 1) {
         return modus;
     }
     else {
-        return "Tidak ada modus";
+        return "Nothing";
     }
     }
 function hasil() {
