@@ -74,7 +74,8 @@ label.tab-menukiri {
 #tab-menu2:checked ~ .tab-content .tab-2,
 #tab-menu3:checked ~ .tab-content .tab-3,
 #tab-menu4:checked ~ .tab-content .tab-4,
-#tab-menu5:checked ~ .tab-content .tab-5{
+#tab-menu5:checked ~ .tab-content .tab-5,
+#tab-menu6:checked ~ .tab-content .tab-6{
 	-webkit-transition:opacity 1s;
 	-moz-transition:opacity 1s; 
 	transition:opacity 1s;
@@ -222,4 +223,43 @@ label.tab-menukiri {
 	line-height: 2;
 	margin-top: 20px;
 
+}
+.calcu table{
+	margin-top: 40px;
+	
+}
+.calcu table, tr,td{
+	padding-left: 15px;
+
+}
+.calcu th, .content td{
+	line-height: 3;
+	font-family: sans-serif;
+	font-size: 15pt;
+}
+.ket h2{
+	text-align:  center;
+	font-family: sans-serif;
+	font-size: 22pt;
+}
+.ket img {
+	top: 80px;
+	left: 700px;
+	width: 200px;
+	height: 250px;
+	border-radius: 8px;
+	position: absolute;
+}
+#hitung{
+	padding: 10px;
+	margin: 10px;
+}
+#result table{
+	margin-top: 50px;
+	background-color:#E6E6FA;
+	width: 20%;
+	margin : auto;
+	padding: 10px;
+	border: 2px solid #F0FFFF;
+	border-radius: 8px;
 }
