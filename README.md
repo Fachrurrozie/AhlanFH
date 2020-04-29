@@ -1,37 +1,4 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/Fachrurrozie/AhlanFH/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<!DOCTYPE html><html><head>	<title>My Web</title>	<link rel="stylesheet" type="text/css" href="css/csstugas.css"> </head><body> 	<div class="container-wrapper"> 		<div class="tab-container"> 			<input type="radio" name="tab-menu" class="tab-menu-radio" id="tab-menu1" checked />			<label for="tab-menu1" class="tab-menu">Home</label> 			<input type="radio" name="tab-menu" class="tab-menu-radio" id="tab-menu2"/>			<label for="tab-menu2" class="tab-menu">Profile</label> 			<input type="radio" name="tab-menu" class="tab-menu-radio" id="tab-menu3"/>			<label for="tab-menu3" class="tab-menu">Galery</label> 			<input type="radio" name="tab-menu" class="tab-menu-radio" id="tab-menu4"/>			<label for="tab-menu4" class="tab-menu">Education</label> 			<input type="radio" name="tab-menu" class="tab-menu-radio" id="tab-menu5"/>			<label for="tab-menu5" class="tab-menukiri">About Web</label> 			<input type="radio" name="tab-menu" class="tab-menu-radio" id="tab-menu6"/>			<label for="tab-menu6" class="tab-menu">Perhitungan</label> 			<div class="tab-content"> 				<div class="tab tab-1">					<div class="tabHome">						<h1> Welcome to My Homepage</h1>						<div class="hero"></div>						<p>Thank you for visiting my website</p>						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non						proident, </p>						</div> 						<div class="footer">							<p>copyright 2019 My page</p></div>										</div> 					<div class="tab tab-2"> 						<div class="recomended">							<h2> PROFILE</h2>							<div class="foto">								<img src="image/oj.jpg">							</div> 							<div class = "content">											<table border="0">									<tr>										<th>Nama</th>										<td>:</td>										<td>Muhammad Ahlan Fachrurrozie Haris</td>									</tr>									<tr>										<th>Alamat </th>										<td>:</td>										<td>Citra Sudiang Indah Blok Y/4 No. 2</td> 									</tr>									<tr>										<th>Email </th>										<td>:</td>										<td>ahlanfachrurrozie@gmail.com</td> 									</tr>									<tr>										<th>Telpon </th>										<td>:</td>										<td>082195677323</td> 									</tr>								</table>							</div>							<div class="footer">								<p>copyright 2019 My page</p>							</div> 						</div>					</div> 					<div class="tab tab-3">						<div class="judul"> <h1> Air Plane</h1></div>						<div class="galery">							<a href="image/img1.jpg"> <img src="image/img1.jpg"></a>							<a href="image/img2.jpg"> <img src="image/img2.jpg"></a>							<a href="image/img3.jpg"> <img src="image/img3.jpg"></a>							<a href="image/img4.jpg"> <img src="image/img4.jpg"></a>							<a href="image/img5.jpg"> <img src="image/img5.jpg"></a>							<a href="image/img6.jpg"> <img src="image/img6.jpg"></a>							<a href="image/img7.jpg"> <img src="image/img7.jpg"></a>							<a href="image/img8.jpg"> <img src="image/img8.jpg"
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Fachrurrozie/AhlanFH/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
